@@ -37,3 +37,21 @@ hr {
     text-align: center;
     border: 2px solid white;
 }
+
+.circle {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+.circle:hover {
+  transform: scale(1.1);
+}

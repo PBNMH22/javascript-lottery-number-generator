@@ -10,13 +10,13 @@ function myFunction() {
 
     let arr = [];
     while(arr.length < 6){
-        let r = Math.floor(Math.random() * 45) + 1;
+        let r = Math.floor(Math.random() * 200) + 1;
         if(arr.indexOf(r) === -1) arr.push(r);
         let add = true;
 
         // looks for duplicate numbers
         // if duplicate exists it does not add it to the array
-        for(let y = 0; y < 45; y++) {
+        for(let y = 0; y < 200; y++) {
             if(arr[y] == arr) {
                 add = false;
             }
